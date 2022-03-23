@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nim</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="script.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    
+    <body onLoad=initializeGame()>
+        <div id=header>       
+            <h1>Nim</h1>      
+        </div>
+    
+        <div id="mainBlock" class="container">
+            
+            <div id="play" class="buttons" onClick=goToPlayerSelect()>Play!</div>
+            <div id="ruleButton" class="buttons" onClick=goToRules()>How do I Play?</div>
+            <div id="player1" class="buttons players" onClick=startGame(1)>One Player</div>
+            <div id="player2" class="buttons players" onClick=startGame(2)>Two Players</div>
+
+            <p id="rules">
+                In nim, two players take turns removing matches set up like so:
+                <br><br>
+                <img src="styles/images/example.png" id="example"></img>
+                <br><br>
+                On their turn, a player can remove any number of matches <em>provided they
+                all come from the same row.</em> You can remove matches by clicking on them.
+                The player who is forced to remove the last match loses. 
+                After pressing play, choose "Two players" to take turns playing
+                with a friend, or choose "One player" to play against the computer.
+            </p>
+            
+            <div id="turnAnnouncement">
+                It's player 1's turn!
+            </div>
+            <hr id="announcementLine">                
+            
+            <div id="rows">
+                <div id="row1">
+                    <div id="match1" class="match" onMouseOver=highlightMatches(1,1) 
+                        onMouseOut=unhighlightMatches(1,1) onClick=matchClick(1,1)>
+                    </div>
+                </div>
+                <div id="row2">
+                    <div id="match2" class="match" onMouseOver=highlightMatches(2,2) 
+                        onMouseOut=unhighlightMatches(2,2) onClick=matchClick(2,2)>
+                    </div>                    
+                    <div id="match3" class="match" onMouseOver=highlightMatches(2,3) 
+                        onMouseOut=unhighlightMatches(2,3) onClick=matchClick(2,3)>
+                    </div>      
+                    <div id="match4" class="match" onMouseOver=highlightMatches(2,4) 
+                        onMouseOut=unhighlightMatches(2,4) onClick=matchClick(2,4)>
+                    </div>                                 
+                </div>
+                <div id="row3">
+                    <div id="match5" class="match" onMouseOver=highlightMatches(5,5) 
+                        onMouseOut=unhighlightMatches(5,5) onClick=matchClick(5,5)>
+                    </div>                    
+                    <div id="match6" class="match" onMouseOver=highlightMatches(5,6) 
+                        onMouseOut=unhighlightMatches(5,6) onClick=matchClick(5,6)>
+                    </div>      
+                    <div id="match7" class="match" onMouseOver=highlightMatches(5,7) 
+                        onMouseOut=unhighlightMatches(5,7) onClick=matchClick(5,7)>
+                    </div> 
+                    <div id="match8" class="match" onMouseOver=highlightMatches(5,8) 
+                        onMouseOut=unhighlightMatches(5,8) onClick=matchClick(5,8)>
+                    </div>                    
+                    <div id="match9" class="match" onMouseOver=highlightMatches(5,9)
+                        onMouseOut=unhighlightMatches(5,9) onClick=matchClick(5,9)>
+                    </div>      
+                </div>
+                <div id="row4">
+                    <div id="match10" class="match" onMouseOver=highlightMatches(10,10)
+                        onMouseOut=unhighlightMatches(10,10) onClick=matchClick(10,10)>
+                    </div>                    
+                    <div id="match11" class="match" onMouseOver=highlightMatches(10,11) 
+                        onMouseOut=unhighlightMatches(10,11) onClick=matchClick(10,11)>
+                    </div>      
+                    <div id="match12" class="match" onMouseOver=highlightMatches(10,12) 
+                        onMouseOut=unhighlightMatches(10,12) onClick=matchClick(10,12)>
+                    </div> 
+                    <div id="match13" class="match" onMouseOver=highlightMatches(10,13)
+                        onMouseOut=unhighlightMatches(10,13) onClick=matchClick(10,13)>
+                    </div>                    
+                    <div id="match14" class="match" onMouseOver=highlightMatches(10,14) 
+                        onMouseOut=unhighlightMatches(10,14) onClick=matchClick(10,14)>
+                    </div>    
+                    <div id="match15" class="match" onMouseOver=highlightMatches(10,15) 
+                        onMouseOut=unhighlightMatches(10,15) onClick=matchClick(10,15)>
+                    </div>                    
+                    <div id="match16" class="match" onMouseOver=highlightMatches(10,16) 
+                        onMouseOut=unhighlightMatches(10,16) onClick=matchClick(10,16)>
+                    </div>                          
+                </div>
+
+                <div id="back" class="buttons" onClick=goBack()>Back</div>
+                
+            </div>
+        </div>
+    </body>
+</html>
