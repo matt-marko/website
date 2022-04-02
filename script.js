@@ -172,7 +172,6 @@ function clickTwoPlayers(firstMatch, lastMatch){
     }
          
     matchesLeft -= removeMatches(firstMatch,lastMatch);       
-    console.log(matchesLeft)
     
     if(matchesLeft == 1){
         endGame();
@@ -272,7 +271,7 @@ function oneRowLeft(){
     if(getSum(matchStatus.slice(9,16)) == 0){
         rowsGone++; 
     }
-    console.log(rowsGone);
+
     if(rowsGone == 3){
         return true;
     } else {
