@@ -24,9 +24,9 @@ body {
 }
 
 .buttons {
-	font-family: "arial", sans-serif;
+    font-family: "arial", sans-serif;
     border: 5%;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .buttons:active{
@@ -39,7 +39,7 @@ body {
 }
 
 #rules{
-	font-family: "arial", sans-serif;
+    font-family: "arial", sans-serif;
     font-size: 1.2em;
     
     display: none;
@@ -47,27 +47,27 @@ body {
 
 #play {
     margin: auto;
-	padding: 10px 50px 10px 50px;
-	background-color: rgb(100,180,100);
-	color:white;
-	text-align: center;
-	font-size: 1.5em;
-	border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    background-color: rgb(100,180,100);
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 10px;
 }
 
 #play:hover {
-	background-color: rgb(140,180,140);
+    background-color: rgb(140,180,140);
 }
 
 #ruleButton {
     margin: auto;
     margin-top: 10px;
-	padding: 10px 50px 10px 50px;   
-	background-color: rgb(100,100,180);
-	color:white;
-	text-align: center;
-	font-size: 1.5em;
-	border-radius: 10px;
+    padding: 10px 50px 10px 50px;   
+    background-color: rgb(100,100,180);
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 10px;
 }
 
 #ruleButton:hover{
