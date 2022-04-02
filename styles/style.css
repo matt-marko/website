@@ -71,16 +71,16 @@ body {
 }
 
 #ruleButton:hover{
-	background-color: rgb(140,140,200);
+    background-color: rgb(140,140,200);
 }
 
 #player1 {
-	padding: 10px 50px 10px 50px;
-	background-color: rgb(100,180,100);
-	color:white;
-	text-align: center;
-	font-size: 1.5em;
-	border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    background-color: rgb(100,180,100);
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 10px;
 
     display: none;
 }
@@ -92,42 +92,42 @@ body {
 
 #player2 {
     margin-top: 10px;
-	padding: 10px 50px 10px 50px;
-	background-color: rgb(100,180,100);
-	color:white;
-	text-align: center;
-	font-size: 1.5em;
-	border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    background-color: rgb(100,180,100);
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 10px;
 
     display: none;
 }
 
 #player2:hover {
-	background-color: rgb(140,180,140);
+    background-color: rgb(140,180,140);
 }
 
 #back {
     position: absolute;
     bottom: 10px;
     right: 10px;
-	padding: 10px 50px 10px 50px;
-	background-color: rgb(100,100,180);
-	color: white;
-	text-align: center;
-	font-size: 1.5em;
-	border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    background-color: rgb(100,100,180);
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 10px;
     
     display: none;
 }
 
 #back:hover{
-	background-color: rgb(140,140,200);
+    background-color: rgb(140,140,200);
 }
 
 #turnAnnouncement {
     margin: auto;
     top: 10px;
-	font-family: "arial", sans-serif;
+    font-family: "arial", sans-serif;
     font-size: 2em;
     
     display: none;
@@ -144,7 +144,7 @@ body {
 #warning{
     margin: auto;
     top: 10px;
-	font-family: "arial", sans-serif;
+    font-family: "arial", sans-serif;
     font-size: 2em;
     
     display: none;
