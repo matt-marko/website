@@ -152,7 +152,7 @@ body {
 
 .match { 
     padding: 70px 20px 70px 20px;
-    background: url("images/match.png") no-repeat;
+    background: url("/images/match.png") no-repeat;
     border-radius: 10px;
     display: none;
 }
