@@ -153,6 +153,8 @@ body {
 .match { 
     padding: 70px 20px 70px 20px;
     border-radius: 10px;
+    background: url("images/match.jpg") no-repeat;
+	
     display: none;
 }
 
