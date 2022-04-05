@@ -1,5 +1,5 @@
 # Information about the website
-A website that lets you play a game of Nim either against a friend, or the computer.
+The website lets you play a game of Nim either against a friend, or the computer.
 The game was written in Javasacript, on an HTML canvas. 
 The source code is contained in script.js
 
