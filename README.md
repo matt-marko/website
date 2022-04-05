@@ -1,6 +1,7 @@
 # Information about the website
 A website that lets you play a game of Nim either against a friend, or the computer.
-The game was written in Javasacript, and the source code is contained in script.js
+The game was written in Javasacript, on an HTML canvas. 
+The source code is contained in script.js
 
 Preview of the website: https://htmlpreview.github.io/?https://github.com/matt-marko/nim/blob/main/main.html
 
