@@ -1,7 +1,7 @@
 /*
 Matt Marko
         This is the Javascript code for my website that runs the game of Nim.
-    For instructions on how to play, click the "How do I Play?" button the home
+    For instructions on how to play, click the "How do I Play?" button on the home
     page of the website.
 */
 
